@@ -50,25 +50,23 @@ h1{
 }
 
 .login_form{
-    background-color: var(--greenish);
+    background-color: var(--yellowish);
     width: 200px;
     margin: 100px 0px 0px 500px;
     padding: 10px 20px 100px 50px;
     position: absolute;
     border-radius: var(--border_radius);
-    display: list-item;
     visibility: hidden;
     transition: ease-in;
 } 
 
 .register_form{
-    background-color: var(--greenish);
+    background-color: var(--yellowish);
     width: 200px;
     margin: 100px 0px 0px 500px;
     padding: 10px 20px 100px 50px;
     position: absolute;
     border-radius: var(--border_radius);
-    display: list-item;
     visibility: hidden;
     transition: ease-in;
 
