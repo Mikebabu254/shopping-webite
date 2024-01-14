@@ -75,6 +75,16 @@ h1{
     transition: ease-in;
 
 } 
+.add_item{
+    background-color: var(--yellowish);
+    width: 200px;
+    margin: 100px 0px 0px 500px;
+    padding: 10px 20px 100px 50px;
+    position: absolute;
+    border-radius: var(--border_radius);
+    
+    transition: ease-in;
+}
 
 #submit{
     margin: 50px 0px 0px 50px;

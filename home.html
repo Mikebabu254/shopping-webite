@@ -16,9 +16,25 @@
 
 </nav>
 
-<div class="add_item">
-    
-</div>
+<form class="add_item">
+    <label for="itemImage">Item Image:</label>
+    <input type="file" id="itemImage" accept="image/*" required>
+    <br>
+
+    <label for="itemName">Item Name:</label>
+    <input type="text" id="itemName" required>
+    <br>
+
+    <label for="itemDescription">Item Description:</label>
+    <textarea id="itemDescription" rows="4" required></textarea>
+    <br>
+
+    <label for="itemPrice">Item Price:</label>
+    <input type="number" id="itemPrice" step="1" required>
+    <br>
+
+    <input type="submit" value="Add Item">
+</form>
     
     <script type="module" src="script.js"></script>
 </body>
