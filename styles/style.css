@@ -46,6 +46,8 @@ nav ul li{
     position: absolute;
     border-radius: var(--border_radius);
     display: list-item;
+    visibility: hidden;
+    transition: ease-in;
 } 
 
 .register_form{
@@ -56,4 +58,6 @@ nav ul li{
     position: absolute;
     border-radius: var(--border_radius);
     display: list-item;
+    visibility: hidden;
+
 } 
