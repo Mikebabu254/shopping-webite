@@ -38,3 +38,12 @@ nav ul li{
     margin: 10px;
 }
 
+.login_form{
+    background-color: var(--greenish);
+    width: 200px;
+    margin: 100px 0px 0px 500px;
+    padding: 100px;
+    position: relative;
+    border-radius: var(--border_radius);
+}
+
