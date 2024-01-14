@@ -38,11 +38,22 @@ nav ul li{
     margin: 10px;
 }
 
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h1{
+    margin: 30px;
+}
+
 .login_form{
     background-color: var(--greenish);
     width: 200px;
     margin: 100px 0px 0px 500px;
-    padding: 100px;
+    padding: 10px 20px 100px 50px;
     position: absolute;
     border-radius: var(--border_radius);
     display: list-item;
@@ -54,10 +65,15 @@ nav ul li{
     background-color: var(--greenish);
     width: 200px;
     margin: 100px 0px 0px 500px;
-    padding: 100px;
+    padding: 10px 20px 100px 50px;
     position: absolute;
     border-radius: var(--border_radius);
     display: list-item;
     visibility: hidden;
+    transition: ease-in;
 
 } 
+
+#submit{
+    margin: 50px 0px 0px 50px;
+}
