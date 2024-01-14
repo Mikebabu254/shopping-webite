@@ -43,7 +43,17 @@ nav ul li{
     width: 200px;
     margin: 100px 0px 0px 500px;
     padding: 100px;
-    position: relative;
+    position: absolute;
     border-radius: var(--border_radius);
-}
+    display: list-item;
+} 
 
+.register_form{
+    background-color: var(--greenish);
+    width: 200px;
+    margin: 100px 0px 0px 500px;
+    padding: 100px;
+    position: absolute;
+    border-radius: var(--border_radius);
+    display: list-item;
+} 
