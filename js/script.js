@@ -22,7 +22,6 @@ regPress.onclick = function(){
     } else{
         registerForm.style.visibility ="hidden";
     }
-    
 }
 
 

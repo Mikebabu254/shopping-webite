@@ -82,7 +82,7 @@ h1{
     padding: 10px 20px 100px 50px;
     position: absolute;
     border-radius: var(--border_radius);
-    visibility: visible;
+    visibility: hidden;
     transition: ease-in;
 }
 
