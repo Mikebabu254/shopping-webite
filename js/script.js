@@ -24,4 +24,13 @@ regPress.onclick = function(){
     }
 }
 
+let password = document.getElementById("passwordReg");
+var confirmPassword = document.getElementById("confirmPassword");
+var submitBtn = document.getElementById("submitReg");
+
+submitBtn.onclick = function(){
+    console.log("hello");
+    
+}
+
 

@@ -8,3 +8,5 @@ addItem.onclick = function () {
         itemForm.style.visibility ="hidden"
     }
 }
+
+

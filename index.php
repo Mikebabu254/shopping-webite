@@ -30,15 +30,19 @@
     <form class="register_form" id="register_form">
         <h1>register</h1><br>
         username<br>
-        <input type="text" name="username" id="usernameReg"><br>
+        <input type="text" name="username" id="usernameReg" i ><br>
         email<br>
-        <input type="email" name="email" id="emailReg"><br>
+        <input type="text" name="email" id="emailReg" ><br>
         password<br>
-        <input type="password" name="password" id="passwordReg"><br>
+        <input type="password" name="password" d="passwordReg" ><br>
+        confirm password<br>
+        <input type="password" name="confirmPassword" id="confirmPassword" ><br>
+        DOB<br>
+        <input type="date" name="date" id="dateReg"><br>
 
-        <input type="submit" value="submit" id="submitReg">
+        <input type="submit" value="submit" id="submitReg"><br><br>
+        
     </form>
-    
-    <script type="module" src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
