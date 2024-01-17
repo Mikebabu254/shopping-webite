@@ -5,7 +5,7 @@ addItem.onclick = function () {
     if (itemForm.style.visibility === "hidden") {
         itemForm.style.visibility ="visible";
     } else {
-        itemForm.style.visibility ="hidden"
+        itemForm.style.visibility ="hidden";
     }
 }
 
