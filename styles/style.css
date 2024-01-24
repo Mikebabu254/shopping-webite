@@ -6,21 +6,20 @@
 }
 
 :root{
-    --cream: #FAEBD7;
-    --aqua: #8BE3E1;
-    --yellowish: #D3F7AD;
-    --greenish: #95BB76;
-    --khaki: #97935C;
+    --tango: #d68438;
+    --orange: #f1b24b;
+    --jungle: #36846b;
+    --green: #4bb39a;
+    --black: #000000;
     --border_radius: 20px;
 }
 
 body{
-    background-color: var(--cream);
+    background-color: var(--tango);
     
 }
 
 nav{
-    background-color: var(--aqua);
     width: 90%;
     height: 50px;
     margin: 30px 0px 10px 50px;
@@ -39,7 +38,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: var(--black);
 }
 
 button{
@@ -53,10 +52,20 @@ h1{
     margin: 30px;
 }
 
+.body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
 .login_form{
-    background-color: var(--yellowish);
-    width: 200px;
-    position: absolute;
+    background-color: var(--orange);
+    width: 300px;
+    height: 200px;
+    padding: 100px;
     border-radius: var(--border_radius);
     visibility: hidden;
     transition: ease-in;
@@ -67,7 +76,7 @@ h1{
     width: 200px;
     position: absolute;
     border-radius: var(--border_radius);
-    visibility: hidden;
+    visibility: visible;
     transition: ease-in;
 
 } 
@@ -82,6 +91,25 @@ h1{
     transition: ease-in;
 }
 
-#submit{
+#submit_login{
     margin: 50px 0px 0px 50px;
+    height: 30px;
+    
+}
+
+.register_form{
+    box-shadow: #000000;
+    margin: 200px 0px 0px 0px;
+    width: 300px;
+    background-color: var(--orange);
+    padding: 0px 0px 0px 150px;
+}
+
+#submitReg{
+    margin: 40px 0px 0px 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: var(--border_radius);
+    background-color: var(--green);
 }
