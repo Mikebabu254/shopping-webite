@@ -10,7 +10,7 @@
     
 <nav>
     <ul>
-        <li><button id="logout_btn"><a href="index.html">logout</a></button></li>
+        <li><button id="logout_btn"><a href="index.php">logout</a></button></li>
         <li><button id="add_btn">add item</button></li>
     </ul>
 

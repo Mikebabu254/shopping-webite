@@ -66,6 +66,7 @@
         $email = $_POST["email"];
         $DOB = $_POST["date"];
         $password = $_POST["password"];
+        $gender = $_POST["gender"];
 
         // Validate data (you may want to add more validation)
 
@@ -73,13 +74,22 @@
             echo "Please enter both username and email.";
         }else{
             //insert data into the database
-            $sql = "INSERT INTO user (username,email,DOB,password,typeOfUser) VALUES ('$username', '$email','$DOB','$password','regular')";
+            $sql = "INSERT INTO user (username,email,DOB,password,typeOfUser,gender) VALUES ('$username', '$email','$DOB','$password','regular','$gender')";
 
-            if($conn -> query($sql) === TRUE){
-                echo "you have been registered successfully";
-            }else{
-                echo "Error: inserting data";
+            try{
+                if($conn -> query($sql) === TRUE){
+                
+                    header("Location: home.php");
+                    
+                    exit();
+                    echo '<script>alert("Registered successfully!");</script>';
+                }else{
+                    echo "Error: inserting data";
+                }
+            }catch(Exception){
+                echo '<script>alert("Registered unsuccessfully!");</script>';
             }
+            
         }
     }
 
