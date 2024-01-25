@@ -1,6 +1,5 @@
 <?php
 
-function sanitize_input($data) {
     session_start();
 
     // Check if the user is already logged in
