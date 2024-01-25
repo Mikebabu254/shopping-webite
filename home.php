@@ -9,10 +9,13 @@
 <body>
     
 <nav>
+    <form action="home.php" method="post">
     <ul>
-        <li><button id="logout_btn"><a href="index.php">logout</a></button></li>
+        <li><input type="submit" name="logout_submit" value="Logout" id="logout_btn"></li>
         <li><button id="add_btn">add item</button></li>
     </ul>
+    </form>
+    
 
 </nav>
 
@@ -39,3 +42,7 @@
     <script type="module" src="js/item.js"></script>
 </body>
 </html>
+
+<?php
+    include 'database/db_logout.php';
+?>

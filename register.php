@@ -11,7 +11,7 @@
 
     <nav>
         <ul>
-            <li><a href="index.php"><button id="loginBtn">login</button></a></li>
+            <li><a href="index.php"><button id="loginBtn">home</button></a></li>
             <li><a href="register.php"><button>register</button></a></li>
             
         </ul>
@@ -37,8 +37,10 @@
             <input type="submit" value="submit" id="submitReg"><br><br>
             
         </form>
+
+        
     </div>
-    
+    <button id="submitReg">jj</button>
     <script src="js/script.js" defer></script>
 </body>
 </html>
